@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Artwork 1",
+        "filename": "monalisa.jpg",
+        "description": "Description of Artwork 1"
+    },
+    {
+        "title": "Artwork 2",
+        "filename": "starynight.jpg",
+        "description": "Description of Artwork 2"
+    },
+    {
+        "title": "Artwork 3",
+        "filename": "monroe.jpg",
+        "description": "Description of Artwork 3"
+    },
+    {
+        "title": "Artwork 3",
+        "filename": "wave.jpg",
+        "description": "Description of Artwork 3"
+    },
+    {
+        "title": "Artwork 3",
+        "filename": "tree.jpg",
+        "description": "Description of Artwork 3"
+    }
+]
