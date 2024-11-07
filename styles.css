@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', monospace;
     line-height: 1.6;
     color: #333;
     background-color: #f4f4f4;
@@ -89,7 +89,15 @@ h2 {
 #face-card {
     display: flex;
     grid-template-columns: (1 1fr)
+}
 
+#contact {
+    width: 70%;                  /* Increase the width of the contact section */
+    padding: 20px;               /* Add more padding for a larger appearance */
+    margin: 20px auto;           /* Center the section and add space around it */
+    background-color: #f9f9f9;   /* Optional: Change background color for visibility */
+    border-radius: 8px;          /* Optional: Add rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
 }
 
 #art-container {

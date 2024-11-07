@@ -2,36 +2,16 @@
     {
         "title": "Mountains",
         "filename": "mountain.jpg",
-        "description": "Description of Artwork 1"
+        "description": "This is an image of a mountain in the desert, the colors clash together to make an abstract view"
     },
     {
-        "title": "Artwork 2",
-        "filename": "starynight.jpg",
+        "title": "More Mountains",
+        "filename": "more-mountains.jpg",
         "description": "Description of Artwork 2"
     },
     {
-        "title": "Artwork 3",
-        "filename": "monroe.jpg",
-        "description": "Description of Artwork 3"
-    },
-    {
-        "title": "Artwork 3",
-        "filename": "wave.jpg",
-        "description": "Description of Artwork 3"
-    },
-    {
-        "title": "Artwork 3",
-        "filename": "tree.jpg",
-        "description": "Description of Artwork 3"
-    },
-    {
-        "title": "Artwork 3",
-        "filename": "eye.jpg",
-        "description": "Description of Artwork 3"
-    },
-    {
-        "title": "Artwork 3",
-        "filename": "apple.jpg",
+        "title": "Even More Mountains",
+        "filename": "even-more-mountains.jpg",
         "description": "Description of Artwork 3"
     }
 ]
