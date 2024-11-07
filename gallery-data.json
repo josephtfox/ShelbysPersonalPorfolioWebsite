@@ -23,5 +23,15 @@
         "title": "Artwork 3",
         "filename": "tree.jpg",
         "description": "Description of Artwork 3"
+    },
+    {
+        "title": "Artwork 3",
+        "filename": "eye.jpg",
+        "description": "Description of Artwork 3"
+    },
+    {
+        "title": "Artwork 3",
+        "filename": "apple.jpg",
+        "description": "Description of Artwork 3"
     }
 ]

@@ -45,10 +45,6 @@ function expandArtPiece(art) {
     expandedView.classList.add('show');
 }
 
-artPieces.forEach(art => {
-    artContainer.appendChild(createArtPiece(art));
-});
-
 // Smooth scrolling for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
@@ -59,24 +55,27 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Get the button element
-let mybutton = document.getElementById("scrollToTopBtn");
+// // Get the button element
+// let mybutton = document.getElementById("scrollToTopBtn");
 
-// Show the button when scrolling down 20px from the top of the document
-window.onscroll = function() {
-    scrollFunction();
-};
+// // Show the button when scrolling down 20px from the top of the document
+// window.onscroll = function() {
+//     scrollFunction();
+// };
 
-function scrollFunction() {
-    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-        mybutton.style.display = "block"; // Show button
-    } else {
-        mybutton.style.display = "none"; // Hide button
-    }
-}
+// function scrollFunction() {
+//     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+//         mybutton.style.display = "block"; // Show button
+//     } else {
+//         mybutton.style.display = "none"; // Hide button
+//     }
+// }
 
-// When the user clicks on the button, scroll to the top of the document
-mybutton.addEventListener("click", function() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-});
+// // When the user clicks on the button, scroll to the top of the document
+// mybutton.addEventListener("click", function() {
+//     // Smooth scroll to top
+//     window.scrollTo({
+//         top: 0,
+//         behavior: 'smooth' // Smooth scrolling effect
+//     });
+// });

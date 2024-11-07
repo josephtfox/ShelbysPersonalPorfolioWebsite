@@ -98,6 +98,9 @@ h2 {
     position: relative;
     overflow: hidden;
     border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
 }
 
 .art-piece:hover {
@@ -158,6 +161,20 @@ h2 {
    font-size :2rem; 
    cursor:pointer; 
 }
+.social-media {
+    margin-top: 10px; /* Space above social media links */
+}
+
+.social-media a {
+    font-size: 40px; /* Icon size */
+    color: #333; /* Icon color */
+    margin-right: 15px; /* Space between icons */
+    text-decoration: none; /* Remove underline */
+}
+
+.social-media a:hover {
+    color: #007bff; /* Change color on hover */
+}
 
 footer {
    text-align:center; 
@@ -204,7 +221,7 @@ footer {
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
     background-color: red; /* Background color */
-    color: white; /* Text color */
+    color: black; /* Text color */
     cursor: pointer; /* Pointer cursor on hover */
     padding: 15px; /* Padding for size */
     border-radius: 10px; /* Rounded corners */
