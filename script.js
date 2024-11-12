@@ -1,4 +1,7 @@
 const artContainer = document.getElementById('art-container');
+let mybutton = document.getElementById("backToTopBtn");
+
+window.onscroll = function() {scrollFunction()};
 
 fetch('gallery-data.json')
     .then(response => response.json())
@@ -8,6 +11,22 @@ fetch('gallery-data.json')
         });
     })
     .catch(error => console.error('Error:', error));
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
+}
+
+// Add this function for the "back to top" button click event
+mybutton.onclick = function() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
 
 function createArtPiece(art) {
     const artElement = document.createElement('div');
@@ -54,28 +73,3 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
-
-// // Get the button element
-// let mybutton = document.getElementById("scrollToTopBtn");
-
-// // Show the button when scrolling down 20px from the top of the document
-// window.onscroll = function() {
-//     scrollFunction();
-// };
-
-// function scrollFunction() {
-//     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-//         mybutton.style.display = "block"; // Show button
-//     } else {
-//         mybutton.style.display = "none"; // Hide button
-//     }
-// }
-
-// // When the user clicks on the button, scroll to the top of the document
-// mybutton.addEventListener("click", function() {
-//     // Smooth scroll to top
-//     window.scrollTo({
-//         top: 0,
-//         behavior: 'smooth' // Smooth scrolling effect
-//     });
-// });
