@@ -3,6 +3,7 @@ let mybutton = document.getElementById("backToTopBtn");
 
 window.onscroll = function() {scrollFunction()};
 
+// Grabs the data from the json document and runs createArtFunction
 fetch('gallery-data.json')
     .then(response => response.json())
     .then(artPieces => {
@@ -28,6 +29,7 @@ mybutton.onclick = function() {
     });
 }
 
+// Adds in the Art images
 function createArtPiece(art) {
     const artElement = document.createElement('div');
     artElement.classList.add('art-piece');
@@ -36,6 +38,7 @@ function createArtPiece(art) {
     return artElement;
 }
 
+// Showing the "Art Card" for when the user clicks on the image
 function expandArtPiece(art) {
     const expandedView = document.createElement('div');
     expandedView.classList.add('expanded');
