@@ -235,9 +235,10 @@ h2 {
 .expanded-content {
    max-width: 90%; 
    max-height: 90%; 
-   display: flex; 
-   flex-direction: column; 
-   align-items: center; 
+   display: flex;
+   flex-direction: column;
+   grid-template-columns: (1fr 1fr);
+   align-items: center;
 }
 
 .expanded-content img {
