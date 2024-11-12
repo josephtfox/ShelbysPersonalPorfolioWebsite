@@ -226,6 +226,8 @@ footer {
          grid-template-columns :1fr;  
      }  
 }
+
+/* For the back to top button */
 #backToTopBtn {
     display: none;
     position: fixed;
