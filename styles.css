@@ -13,9 +13,10 @@ body {
 
 header {
     position: relative;
-    height: 120px; /* You can adjust this height as needed */
-    background-color: #333; /* Set a solid background color */
+    height: 120px; 
+    background-color: #333;
     margin-top: 1rem;
+    background-image: url('logos/saic.jpg')
 }
 
 .banner {
@@ -23,7 +24,7 @@ header {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #54698a;
+    /* background-color: #54698a; */
     color: #fff;
     padding: 1rem;
     display: flex;
